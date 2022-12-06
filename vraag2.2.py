@@ -2,7 +2,6 @@ file = open('inputs/vraag2.txt','r')
 score = 0
 for i in file:
 	deel = i.split()
-
 	if deel[1] == "X":
 		if deel[0] == "A":
 			score = score + 3
